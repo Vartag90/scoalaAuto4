@@ -136,3 +136,8 @@
         overflow: hidden;
     }
 }
+
+.navbar__wrap .menu__ru {
+    opacity: 0;
+    width: 0;
+}

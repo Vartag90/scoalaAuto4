@@ -128,7 +128,6 @@
 .navbar-module--menu__list--84118 {
     display: flex;
     flex: 1 1 100%;
-    flex-wrap: wrap;
     justify-content: flex-end;
 }
 
@@ -144,6 +143,12 @@
 
 .navbar-module--menu__item--5806f:not(:last-child) {
     margin: 0 12px 0 0;
+}
+
+@media (max-width: 1099px) {
+    .navbar-module--menu__item--5806f {
+        margin: 0 2px 0 0;
+    }
 }
 
 @media (max-width: 580px) {
@@ -162,13 +167,6 @@
     margin: 0 0 10%;
     /* padding: 0 5px; */
     position: relative;
-}
-
-@media (max-width: 1199px) {
-    .navbar-module--menu__link--7f90f {
-        /* margin: 0 0 5%; */
-        /* padding: 0 5px; */
-    }
 }
 
 .navbar-module--menu__link--7f90f:after {
@@ -203,7 +201,6 @@
 
 .langbar-module--langbar--f0eb6 {
     margin: 0 0 0 10px;
-    /* padding: 5px 0; */
     order: 3;
 }
 
@@ -218,16 +215,17 @@
     width: 100%;
 }
 
-.langbar-module--langbar__item--9abe9 a {
+.langbar-module--langbar__item--9abe9 span {
     color: #5d5c61;
     font-weight: 600;
     line-height: 171.4285714286%;
     padding: 5px 10px;
     width: 100%;
+    cursor: pointer;
 }
 
 @media (max-width: 480px) {
-    .langbar-module--langbar__item--9abe9 a {
+    .langbar-module--langbar__item--9abe9 span {
         padding: 0 3px;
     }
 }
@@ -244,29 +242,24 @@
     }
 }
 
-
-/* .langbar-module--langbar__item--9abe9:not(:last-child) {
-    margin: 0 21px 0 0;
-} */
-
-.langbar-module--active--4d7cd {
+.langbar-active {
     text-decoration: underline;
 }
 
 .categorii-module--categorii--388dd {
     background-color: #5e6c8a;
-    padding: 85px 0;
+    padding: 95px 0;
 }
 
 @media (max-width: 991px) {
     .categorii-module--categorii--388dd {
-        padding: 65px 0;
+        padding: 75px 0;
     }
 }
 
 @media (max-width: 767px) {
     .categorii-module--categorii--388dd {
-        padding: 55px 0;
+        padding: 65px 0;
     }
 }
 
@@ -325,7 +318,6 @@
 
 .categorii-module--categorii__formare--1a4de {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     padding: 0 30px;
 }
@@ -333,6 +325,7 @@
 @media (max-width: 992px) {
     .categorii-module--categorii__formare--1a4de {
         padding: 0 15px;
+        flex-wrap: wrap;
     }
 }
 
@@ -445,18 +438,18 @@
 
 .conditii-module--conditii--f3d07 {
     background-color: #7a869e;
-    padding: 85px 0;
+    padding: 95px 0;
 }
 
 @media (max-width: 991px) {
     .conditii-module--conditii--f3d07 {
-        padding: 65px 0;
+        padding: 75px 0;
     }
 }
 
 @media (max-width: 767px) {
     .conditii-module--conditii--f3d07 {
-        padding: 55px 0;
+        padding: 65px 0;
     }
 }
 
@@ -511,7 +504,6 @@
 
 .conditii-module--conditii__formare--59975 {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     padding: 0 30px;
 }
@@ -519,6 +511,7 @@
 @media (max-width: 992px) {
     .conditii-module--conditii__formare--59975 {
         padding: 0 15px;
+        flex-wrap: wrap;
     }
 }
 
@@ -582,18 +575,18 @@
 
 .contacts-module--contacts--c9921 {
     background-color: #5e6c8a;
-    padding: 85px 0;
+    padding: 95px 0;
 }
 
 @media (max-width: 991px) {
     .contacts-module--contacts--c9921 {
-        padding: 65px 0;
+        padding: 75px 0;
     }
 }
 
 @media (max-width: 767px) {
     .contacts-module--contacts--c9921 {
-        padding: 55px 0;
+        padding: 65px 0;
     }
 }
 
@@ -861,70 +854,6 @@
     z-index: 1;
 }
 
-.gallery-module--gallery--2cc44 a:first-child img {
-    transform: rotate(-25deg);
-}
-
-.gallery-module--gallery--2cc44 a:nth-child(2) img {
-    transform: rotate(-20deg);
-}
-
-.gallery-module--gallery--2cc44 a:nth-child(3) img {
-    transform: rotate(-15deg);
-}
-
-.gallery-module--gallery--2cc44 a:nth-child(4) img {
-    transform: rotate(-10deg);
-}
-
-.gallery-module--gallery--2cc44 a:nth-child(5) img {
-    transform: rotate(-5deg);
-}
-
-.gallery-module--gallery--2cc44 a:nth-child(6) img {
-    transform: rotate(0deg);
-}
-
-.gallery-module--gallery--2cc44 a:nth-child(7) img {
-    transform: rotate(5deg);
-}
-
-.gallery-module--gallery--2cc44 a:nth-child(8) img {
-    transform: rotate(10deg);
-}
-
-.gallery-module--gallery--2cc44 a:nth-child(9) img {
-    transform: rotate(15deg);
-}
-
-.gallery-module--gallery--2cc44 a:nth-child(10) img {
-    transform: rotate(20deg);
-}
-
-.gallery-module--gallery--2cc44 a:nth-child(11) img {
-    transform: rotate(25deg);
-}
-
-.gallery-module--gallery--2cc44 a:nth-child(13) img {
-    transform: rotate(-5deg);
-}
-
-.gallery-module--gallery--2cc44 a:nth-child(14) img {
-    transform: rotate(0deg);
-}
-
-.gallery-module--gallery--2cc44 a:nth-child(15) img {
-    transform: rotate(5deg);
-}
-
-.gallery-module--gallery--2cc44 a:nth-child(16) img {
-    transform: rotate(10deg);
-}
-
-.gallery-module--gallery--2cc44 a:nth-child(12) img {
-    transform: rotate(30deg);
-}
-
 .gallery-module--gallery--2cc44 a:focus img {
     cursor: default;
     height: 300%;
@@ -939,18 +868,18 @@
 
 .grupe-module--grupe--b5eb2 {
     background-color: #7a869e;
-    padding: 85px 0;
+    padding: 95px 0;
 }
 
 @media (max-width: 991px) {
     .grupe-module--grupe--b5eb2 {
-        padding: 65px 0;
+        padding: 75px 0;
     }
 }
 
 @media (max-width: 767px) {
     .grupe-module--grupe--b5eb2 {
-        padding: 55px 0;
+        padding: 65px 0;
     }
 }
 
@@ -983,7 +912,6 @@
 
 .grupe-module--grupe__formare--db767 {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     padding: 0 30px;
 }
@@ -997,6 +925,7 @@
 @media (max-width: 767px) {
     .grupe-module--grupe__formare--db767 {
         padding: 0;
+        flex-wrap: wrap;
     }
 }
 
@@ -1064,6 +993,18 @@
     object-fit: cover;
     width: 100%;
 }
+
+
+/* @media (max-width: 480px) {
+    .main-bg-module--ibg--b9818 img {
+        height: 100vh;
+        object-fit: none;
+        position: absolute;
+        z-index: -1111;
+        transform: ;
+        width: 100%;
+    }
+} */
 
 .main-bg-module--mainblock__footer--e33e3 {
     display: inline-flex;
@@ -1246,18 +1187,18 @@
 
 .util-module--util--a98dd {
     background-color: #7a869e;
-    padding: 85px 0;
+    padding: 95px 0;
 }
 
 @media (max-width: 991px) {
     .util-module--util--a98dd {
-        padding: 65px 0;
+        padding: 75px 0;
     }
 }
 
 @media (max-width: 767px) {
     .util-module--util--a98dd {
-        padding: 55px 0;
+        padding: 65px 0;
     }
 }
 
@@ -1537,4 +1478,8 @@ html {
 @font-face {
     font-family: "Cricket";
     src: url("../fonts/cricket/cricket.ttf");
+}
+
+.main__ru {
+    display: none;
 }
