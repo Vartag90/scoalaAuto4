@@ -34,9 +34,9 @@ for (const elem of langbar) {
             navbar__grupe.textContent = 'Grupe';
             navbar__categorii.textContent = 'Categorii';
             navbar__conditii.textContent = 'Conditii';
-            navbar__gallery.textContent = 'Gallery';
+            navbar__gallery.textContent = 'Galerie';
             navbar__util.textContent = 'Util';
-            navbar__contacts.textContent = 'Contacts';
+            navbar__contacts.textContent = 'Contacte';
             navbar__main_link.href = '#main__ro';
             navbar__grupe_link.href = '#grupe__ro';
             navbar__categorii_link.href = '#categorii__ro';
