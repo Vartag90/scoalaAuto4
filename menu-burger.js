@@ -28,14 +28,18 @@ function hambHandler(e) {
 // Здесь мы рендерим элементы в наш попап
 function renderPopupRo() {
     popup.appendChild(menu_ro);
-    popup.querySelector('.menu__ru').style.display = 'none';
+    if (popup.querySelector('.menu__ru')) {
+        popup.querySelector('.menu__ru').style.display = 'none';
+    }
     popup.querySelector('.menu__ro').style.display = 'flex';
     //popup.removeChild(menu_ru);
 }
 
 function renderPopupRu() {
     popup.appendChild(menu_ru);
-    popup.querySelector('.menu__ro').style.display = 'none';
+    if (popup.querySelector('.menu__ro')) {
+        popup.querySelector('.menu__ro').style.display = 'none';
+    }
     popup.querySelector('.menu__ru').style.display = 'flex';
     //popup.removeChild(menu_ro);
 }
