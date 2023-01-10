@@ -295,6 +295,18 @@
     }
 }
 
+@media (max-width: 767px) {
+    .main__ru .categorii-module--categorii__title--0f010 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .main__ru .categorii-module--categorii__title--0f010 {
+        font-size: 1.5rem;
+    }
+}
+
 .categorii-module--categorii__subtitle--7baf0 {
     color: #fff;
     font-size: 1.5rem;
