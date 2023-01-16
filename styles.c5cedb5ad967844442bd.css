@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
 .header-module--header--e1d40 {
     background-color: hsla(0, 0%, 100%, 0.704);
     left: 0;
@@ -6,7 +6,13 @@
     top: 0;
     width: 100%;
     z-index: 59;
-    height: 75px;
+    height: 85px;
+}
+
+@media (max-width: 370px) {
+    .header-module--header--e1d40 {
+        height: 75px;
+    }
 }
 
 .header-module--header__container--23955 {
@@ -27,30 +33,13 @@
 
 .header-module--header__logo--d3aef {
     flex: 0 1 20%;
+    justify-content: center;
     order: -1;
 }
 
 .header-module--header__logo--d3aef a img {
     animation: header-module--rotate--79288 3s ease-in-out infinite alternate;
-    width: 70%;
-}
-
-@media (max-width: 1199px) {
-    .header-module--header__logo--d3aef {
-        flex: 0 1 250px;
-    }
-}
-
-@media (max-width: 1099px) {
-    .header-module--header__logo--d3aef {
-        flex: 0 1 200px;
-    }
-}
-
-@media (max-width: 480px) {
-    .header-module--header__logo--d3aef {
-        flex: 0 1 150px;
-    }
+    max-width: 75px;
 }
 
 .header-module--contact--5cce0 {
@@ -58,7 +47,7 @@
     margin: 0 5px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 380px) {
     .header-module--contact--5cce0 {
         display: none;
     }
@@ -169,6 +158,7 @@
 }
 
 .navbar-module--menu__link--7f90f span {
+    font-style: italic;
     position: relative;
     z-index: 1;
     color: #000;
@@ -183,7 +173,7 @@
 }
 
 .navbar-module--menu__link--7f90f:after {
-    background-color: #d8e6f3;
+    background-color: #878e9580;
     border-radius: 10px;
 }
 
@@ -210,6 +200,7 @@
     padding: 5px 10px;
     width: 100%;
     cursor: pointer;
+    font-style: italic;
 }
 
 @media (max-width: 480px) {
@@ -219,7 +210,7 @@
 }
 
 .langbar-module--langbar__item--9abe9 a:hover {
-    background-color: #7395ae;
+    background-color: #878e95;
     border-radius: 5px;
     color: #000;
 }
@@ -235,7 +226,9 @@
 }
 
 .categorii-module--categorii--388dd {
-    background-color: #5e6c8a;
+    background: #7a869e url("./drum.png") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     padding: 95px 0;
     min-height: 1730px;
 }
@@ -371,7 +364,7 @@
 }
 
 .categorii-module--categorii__table--f4f9f {
-    background: #d8e6f3;
+    background-color: #d8e6f383;
     border: 5px outset gray;
     flex: 0 1 48%;
     margin: 0 0 20px;
@@ -379,7 +372,7 @@
 
 .categorii-module--categorii__table--f4f9f th,
 .categorii-module--categorii__table--f4f9f td:first-child {
-    background: #afcde7;
+    background-color: #d8e6f383;
     color: white;
     text-shadow: 0.5px 0.5px 1px #000, -0.5px -0.5px 1px #000;
 }
@@ -516,7 +509,9 @@
 }
 
 .conditii-module--conditii--f3d07 {
-    background-color: #7a869e;
+    background: #7a869e url("./drum.png") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     padding: 95px 0;
     min-height: 790px;
 }
@@ -606,14 +601,14 @@
 }
 
 .conditii-module--conditii__table--ef708 {
-    background: #d8e6f3;
+    background-color: #d8e6f383;
     border: 5px outset gray;
     flex: 0 1 40%;
 }
 
 .conditii-module--conditii__table--ef708 th,
 .conditii-module--conditii__table--ef708 td:first-child {
-    background: #afcde7;
+    background-color: #d8e6f383;
     color: white;
     text-shadow: 0.5px 0.5px 1px #000, -0.5px -0.5px 1px #000;
 }
@@ -685,7 +680,9 @@
 }
 
 .contacts-module--contacts--c9921 {
-    background-color: #5e6c8a;
+    background: #7a869e url("./drum.png") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     padding: 95px 0;
 }
 
@@ -753,7 +750,7 @@
 }
 
 .contacts-module--contacts__subtitle--906ba {
-    color: #000;
+    color: rgb(226, 226, 222);
     font-size: 1.5rem;
     margin: 0 0 1.5rem;
     text-align: center;
@@ -792,7 +789,7 @@
 
 .contacts-module--contacts__map--1f7ab h3 {
     color: #fff;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-style: italic;
     margin: 0 0 1rem;
     text-align: center;
@@ -829,7 +826,7 @@
 }
 
 .contacts-module--contacts__date--fc542 p {
-    color: #000;
+    color: rgb(226, 226, 222);
     font-size: 1.7rem;
     text-align: center;
 }
@@ -862,7 +859,7 @@
 }
 
 .footer-module--footer--ee798 {
-    background-color: #7a869e;
+    background-color: hsla(0, 0%, 100%, 0.704);
     padding: 15px 0;
 }
 
@@ -920,7 +917,9 @@
 }
 
 .gallery-module--photos--0a3a7 {
-    background-color: #5e6c8a;
+    background: #7a869e url("./drum.png") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     padding: 85px 0 110px;
 }
 
@@ -996,7 +995,9 @@
 }
 
 .grupe-module--grupe--b5eb2 {
-    background-color: #7a869e;
+    background: #7a869e url("./drum.png") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     padding: 95px 0;
     min-height: 830px;
 }
@@ -1060,7 +1061,7 @@
 }
 
 .grupe-module--grupe__table--6b5d9 {
-    background: #d8e6f3;
+    background-color: #d8e6f383;
     border: 5px outset gray;
     flex: 0 1 45%;
     margin: 0 0 20px;
@@ -1068,7 +1069,7 @@
 
 .grupe-module--grupe__table--6b5d9 th,
 .grupe-module--grupe__table--6b5d9 td:first-child {
-    background: #afcde7;
+    background-color: #d8e6f383;
     color: white;
     text-shadow: 0.5px 0.5px 1px #000, -0.5px -0.5px 1px #000;
 }
@@ -1243,6 +1244,7 @@
 }
 
 .main-bg-module--welcome--4c5b4 {
+    font-style: italic;
     background-color: hsla(0, 0%, 100%, 0.704);
     border: 1px solid #fff;
     border-radius: 20px;
@@ -1335,7 +1337,9 @@
 }
 
 .util-module--util--a98dd {
-    background-color: #7a869e;
+    background: #7a869e url("./drum.png") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     padding: 95px 0;
 }
 
@@ -1573,7 +1577,7 @@
     height: 100%;
     line-height: 1;
     width: 100%;
-    font-family: "Rubik", sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 * button,
@@ -1621,7 +1625,7 @@
 
 html {
     scroll-behavior: smooth;
-    font-family: "Rubik", sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 .main__ru {
@@ -1805,7 +1809,7 @@ span.sim-dot {
     }
     .popup {
         position: fixed;
-        top: 75px;
+        top: 85px;
         left: -100%;
         width: 100%;
         height: 100%;
@@ -1852,6 +1856,12 @@ span.sim-dot {
     }
     body.noscroll {
         overflow: hidden;
+    }
+}
+
+@media (max-width: 370px) {
+    .popup {
+        top: 75px;
     }
 }
 
