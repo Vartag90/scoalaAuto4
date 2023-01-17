@@ -1,4 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+
+/* font-family: 'Montserrat', sans-serif; */
+
+@font-face {
+    font-family: "Underground";
+    src: url("./fonts/930-font.otf");
+}
+
+@font-face {
+    font-family: "Underground2";
+    src: url("./fonts/927-font.otf");
+}
+
+td {
+    font-family: "Montserrat", sans-serif;
+}
+
 .header-module--header--e1d40 {
     background-color: hsla(0, 0%, 100%, 0.704);
     left: 0;
@@ -47,7 +64,7 @@
     margin: 0 5px;
 }
 
-@media (max-width: 380px) {
+@media (max-width: 480px) {
     .header-module--contact--5cce0 {
         display: none;
     }
@@ -195,7 +212,7 @@
 
 .langbar-module--langbar__item--9abe9 span {
     color: #5d5c61;
-    font-weight: 600;
+    font-weight: 700;
     line-height: 171.4285714286%;
     padding: 5px 10px;
     width: 100%;
@@ -209,8 +226,8 @@
     }
 }
 
-.langbar-module--langbar__item--9abe9 a:hover {
-    background-color: #878e95;
+.langbar-module--langbar__item--9abe9 span:hover {
+    background-color: #878e9580;
     border-radius: 5px;
     color: #000;
 }
@@ -226,7 +243,8 @@
 }
 
 .categorii-module--categorii--388dd {
-    background: #7a869e url("./drum.png") no-repeat;
+    background: #7a869e url("./static/trassa3.webp") no-repeat;
+    background-position: center;
     background-size: cover;
     background-attachment: fixed;
     padding: 95px 0;
@@ -293,6 +311,7 @@
 }
 
 .categorii-module--categorii__subtitle--7baf0 {
+    font-family: "Montserrat", sans-serif;
     color: #fff;
     font-size: 1.5rem;
     font-weight: 600;
@@ -364,7 +383,7 @@
 }
 
 .categorii-module--categorii__table--f4f9f {
-    background-color: #d8e6f383;
+    background-color: #d8e6f3bb;
     border: 5px outset gray;
     flex: 0 1 48%;
     margin: 0 0 20px;
@@ -372,7 +391,8 @@
 
 .categorii-module--categorii__table--f4f9f th,
 .categorii-module--categorii__table--f4f9f td:first-child {
-    background-color: #d8e6f383;
+    font-family: "Underground2";
+    background-color: #d8e6f3bb;
     color: white;
     text-shadow: 0.5px 0.5px 1px #000, -0.5px -0.5px 1px #000;
 }
@@ -509,7 +529,8 @@
 }
 
 .conditii-module--conditii--f3d07 {
-    background: #7a869e url("./drum.png") no-repeat;
+    background: #7a869e url("./static/trassa3.webp") no-repeat;
+    background-position: center;
     background-size: cover;
     background-attachment: fixed;
     padding: 95px 0;
@@ -573,7 +594,7 @@
 }
 
 .conditii-module--conditii__documents--9ae48 p {
-    background-color: #d8e6f383;
+    background-color: #d8e6f3bb;
     border-radius: 20px;
     font-size: 1.2rem;
     margin: 0 0 15px;
@@ -601,14 +622,15 @@
 }
 
 .conditii-module--conditii__table--ef708 {
-    background-color: #d8e6f383;
+    background-color: #d8e6f3bb;
     border: 5px outset gray;
     flex: 0 1 40%;
 }
 
 .conditii-module--conditii__table--ef708 th,
 .conditii-module--conditii__table--ef708 td:first-child {
-    background-color: #d8e6f383;
+    font-family: "Underground2";
+    background-color: #d8e6f3bb;
     color: white;
     text-shadow: 0.5px 0.5px 1px #000, -0.5px -0.5px 1px #000;
 }
@@ -680,7 +702,8 @@
 }
 
 .contacts-module--contacts--c9921 {
-    background: #7a869e url("./drum.png") no-repeat;
+    background: #7a869e url("./static/trassa3.webp") no-repeat;
+    background-position: center;
     background-size: cover;
     background-attachment: fixed;
     padding: 95px 0;
@@ -750,9 +773,11 @@
 }
 
 .contacts-module--contacts__subtitle--906ba {
-    color: rgb(226, 226, 222);
+    color: rgb(255, 255, 255);
+    text-shadow: 0.5px 0.5px 1px #000, -0.5px -0.5px 1px #000;
     font-size: 1.5rem;
     margin: 0 0 1.5rem;
+    font-weight: 700;
     text-align: center;
     text-decoration: underline;
 }
@@ -788,6 +813,7 @@
 }
 
 .contacts-module--contacts__map--1f7ab h3 {
+    font-family: "Montserrat", sans-serif;
     color: #fff;
     font-size: 1.2rem;
     font-style: italic;
@@ -826,32 +852,37 @@
 }
 
 .contacts-module--contacts__date--fc542 p {
-    color: rgb(226, 226, 222);
-    font-size: 1.7rem;
+    color: rgb(255, 255, 255);
+    text-shadow: 0.5px 0.5px 1px #000, -0.5px -0.5px 1px #000;
+    font-size: 1.5rem;
     text-align: center;
+    font-weight: 700;
 }
 
 @media (max-width: 1299px) {
-    .contacts-module--contacts__date--fc542 p {
-        font-size: 1.5rem;
-    }
-}
-
-@media (max-width: 992px) {
     .contacts-module--contacts__date--fc542 p {
         font-size: 1.3rem;
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 992px) {
     .contacts-module--contacts__date--fc542 p {
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
 }
 
+
+/* @media (max-width: 767px) {
+    .contacts-module--contacts__date--fc542 p {
+        font-size: 0.8rem;
+    }
+} */
+
 .contacts-module--contacts__date--fc542 p a {
+    font-family: "Montserrat", sans-serif;
     color: #fff;
     text-shadow: 1px 1px 2px #000;
+    font-weight: 500;
 }
 
 .contacts-module--contacts__date--fc542 p a:hover {
@@ -876,7 +907,7 @@
 .footer-module--footer__copyright--d85d2 {
     color: #fff;
     font-size: 1rem;
-    text-shadow: 1px 1px 2px #000;
+    text-shadow: 0.5px 0.5px 0.5px #000, -0.5px -0.5px 0.5px #000;
 }
 
 @media (max-width: 480px) {
@@ -917,7 +948,8 @@
 }
 
 .gallery-module--photos--0a3a7 {
-    background: #7a869e url("./drum.png") no-repeat;
+    background: #7a869e url("./static/trassa3.webp") no-repeat;
+    background-position: center;
     background-size: cover;
     background-attachment: fixed;
     padding: 85px 0 110px;
@@ -995,8 +1027,9 @@
 }
 
 .grupe-module--grupe--b5eb2 {
-    background: #7a869e url("./drum.png") no-repeat;
+    background: #7a869e url("./static/trassa3.webp") no-repeat;
     background-size: cover;
+    background-position: center;
     background-attachment: fixed;
     padding: 95px 0;
     min-height: 830px;
@@ -1061,7 +1094,7 @@
 }
 
 .grupe-module--grupe__table--6b5d9 {
-    background-color: #d8e6f383;
+    background-color: #d8e6f3bb;
     border: 5px outset gray;
     flex: 0 1 45%;
     margin: 0 0 20px;
@@ -1069,7 +1102,8 @@
 
 .grupe-module--grupe__table--6b5d9 th,
 .grupe-module--grupe__table--6b5d9 td:first-child {
-    background-color: #d8e6f383;
+    font-family: "Underground2";
+    background-color: #d8e6f3bb;
     color: white;
     text-shadow: 0.5px 0.5px 1px #000, -0.5px -0.5px 1px #000;
 }
@@ -1282,6 +1316,8 @@
 }
 
 .main-bg-module--welcome__title--ff3e2 {
+    font-family: "Underground";
+    font-weight: normal;
     font-size: 45px;
     margin: 20px 0;
     text-align: center;
@@ -1337,8 +1373,9 @@
 }
 
 .util-module--util--a98dd {
-    background: #7a869e url("./drum.png") no-repeat;
+    background: #7a869e url("./static/trassa3.webp") no-repeat;
     background-size: cover;
+    background-position: center;
     background-attachment: fixed;
     padding: 95px 0;
 }
@@ -1429,7 +1466,7 @@
 }
 
 .util-module--util__linkuri--061fd p {
-    background-color: #d8e6f37a;
+    background-color: #d8e6f3bb;
     border-radius: 20px;
     font-size: 1.2rem;
     text-shadow: 0.5px 0.5px 1px #bababa, -0.5px -0.5px 1px #bababa;
@@ -1532,6 +1569,7 @@
 
 .util-module--util__manuale--db533 div div img {
     width: 100%;
+    height: 100%;
 }
 
 .layout-module--layout--260ed {
@@ -1577,7 +1615,7 @@
     height: 100%;
     line-height: 1;
     width: 100%;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Underground2";
 }
 
 * button,
@@ -1625,7 +1663,7 @@
 
 html {
     scroll-behavior: smooth;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Underground2";
 }
 
 .main__ru {
