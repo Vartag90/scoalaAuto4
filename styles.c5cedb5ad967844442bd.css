@@ -72,7 +72,7 @@ td {
 
 .header-module--contact--5cce0 a {
     color: #fff;
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: 700;
     text-shadow: 0.5px 0.5px 1px #000, -0.5px -0.5px 1px #000;
 }
@@ -83,13 +83,13 @@ td {
 
 @media (max-width: 1199px) {
     .header-module--contact--5cce0 a {
-        font-size: 15px;
+        font-size: 1.8rem;
     }
 }
 
 @media (max-width: 480px) {
     .header-module--contact--5cce0 a {
-        font-size: 12px;
+        font-size: 1.5rem;
         font-weight: 600;
     }
 }
@@ -216,6 +216,7 @@ td {
     line-height: 171.4285714286%;
     padding: 5px 10px;
     width: 100%;
+    font-size: 1.3rem;
     cursor: pointer;
     font-style: italic;
 }
@@ -235,6 +236,14 @@ td {
 @media (max-width: 1199px) {
     .langbar-module--langbar__item--9abe9 {
         font-size: 12px;
+    }
+}
+
+@media (max-width: 767px) {
+    .langbar-module--langbar__item--9abe9 span:hover {
+        background: none;
+        border-radius: 5px;
+        color: #000;
     }
 }
 
