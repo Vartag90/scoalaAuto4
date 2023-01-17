@@ -257,11 +257,12 @@ td {
     }
 }
 
-@media (max-width: 767px) {
+
+/* @media (max-width: 767px) {
     .categorii-module--categorii--388dd {
         padding: 65px 0;
     }
-}
+} */
 
 .categorii-module--categorii__container--892ed {
     box-sizing: content-box;
@@ -547,11 +548,12 @@ td {
     }
 }
 
-@media (max-width: 767px) {
+
+/* @media (max-width: 767px) {
     .conditii-module--conditii--f3d07 {
         padding: 65px 0;
     }
-}
+} */
 
 .conditii-module--conditii__container--ba6ee {
     box-sizing: content-box;
@@ -715,11 +717,12 @@ td {
     }
 }
 
-@media (max-width: 767px) {
+
+/* @media (max-width: 767px) {
     .contacts-module--contacts--c9921 {
         padding: 65px 0;
     }
-}
+} */
 
 .contacts-module--contacts__container--e12ef {
     box-sizing: content-box;
@@ -1041,11 +1044,12 @@ td {
     }
 }
 
-@media (max-width: 767px) {
+
+/* @media (max-width: 767px) {
     .grupe-module--grupe--b5eb2 {
         padding: 65px 0;
     }
-}
+} */
 
 .grupe-module--grupe__container--48ac3 {
     box-sizing: content-box;
@@ -1386,11 +1390,12 @@ td {
     }
 }
 
-@media (max-width: 767px) {
+
+/* @media (max-width: 767px) {
     .util-module--util--a98dd {
         padding: 65px 0;
     }
-}
+} */
 
 .util-module--util__container--cd14d {
     box-sizing: content-box;
