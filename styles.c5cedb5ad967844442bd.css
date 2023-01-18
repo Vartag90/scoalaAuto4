@@ -1133,7 +1133,7 @@
         border: 3px outset gray;
     }
     .grupe-module--grupe__table--6b5d9 td:first-child {
-        font-weight: 600;
+        font-weight: 700;
         min-width: 300px;
     }
 }
@@ -1178,7 +1178,7 @@
         padding: 2px 5px;
     }
     .grupe-module--grupe__table--6b5d9 td:first-child {
-        font-weight: 600;
+        font-weight: 700;
         min-width: 0px;
     }
 }
@@ -1191,7 +1191,7 @@
         padding: 2px 5px;
     }
     .grupe-module--grupe__table--6b5d9 td:first-child {
-        font-weight: 600;
+        font-weight: 700;
         min-width: 0px;
     }
 }
@@ -1211,6 +1211,9 @@
         font-size: 0.9rem;
         font-weight: 500;
         padding: 2px 5px;
+    }
+    .main__ru .grupe-module--grupe__table--6b5d9 td:first-child {
+        font-weight: 600;
     }
 }
 
