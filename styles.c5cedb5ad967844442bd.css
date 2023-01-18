@@ -1230,7 +1230,7 @@
     display: inline-flex;
     flex-direction: column;
     position: absolute;
-    top: 70%;
+    top: 85%;
 }
 
 .main-bg-module--mainblock__btn--86deb {
@@ -1317,7 +1317,7 @@
 .main-bg-module--welcome--4c5b4 {
     display: block;
     position: absolute;
-    top: 85px;
+    top: 80%;
     width: 100%;
 }
 
@@ -1932,4 +1932,23 @@ h2 {
         display: flex;
         flex-direction: column;
     }
+}
+
+.main__ru th.narrow,
+th.narrow {
+    padding: 0;
+    font-size: 0.7rem;
+}
+
+@media (max-width: 480px) {
+    .main__ru th.narrow,
+    th.narrow {
+        font-size: 0.5rem;
+    }
+}
+
+.conditii-module--conditii__table--ef708 td:nth-child(2),
+.conditii-module--conditii__table--ef708 td:nth-child(3),
+.conditii-module--conditii__table--ef708 td:nth-child(4) {
+    text-align: center;
 }
