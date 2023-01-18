@@ -1240,6 +1240,12 @@
     top: 85%;
 }
 
+@media (max-height: 500px) {
+    .main-bg-module--mainblock__footer--e33e3 {
+        display: none;
+    }
+}
+
 .main-bg-module--mainblock__btn--86deb {
     border: 1px solid #fff;
     border-radius: 15px;
