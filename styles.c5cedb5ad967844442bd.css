@@ -1230,7 +1230,7 @@
     display: inline-flex;
     flex-direction: column;
     position: absolute;
-    top: 85%;
+    top: 80%;
 }
 
 .main-bg-module--mainblock__btn--86deb {
@@ -1317,7 +1317,7 @@
 .main-bg-module--welcome--4c5b4 {
     display: block;
     position: absolute;
-    top: 80%;
+    top: 75%;
     width: 100%;
 }
 
