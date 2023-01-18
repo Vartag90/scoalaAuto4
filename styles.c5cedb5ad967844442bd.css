@@ -1344,12 +1344,20 @@
         font-size: 20px;
         margin: 15px 0;
     }
+    .main-bg-module--welcome__title--ff3e2 span {
+        font-family: "MainFont";
+        font-size: 1.1rem;
+    }
 }
 
 @media (max-width: 767px) {
     .main-bg-module--welcome__title--ff3e2 {
         font-size: 15px;
         margin: 10px 0;
+    }
+    .main-bg-module--welcome__title--ff3e2 span {
+        font-family: "MainFont";
+        font-size: 0.9rem;
     }
 }
 
