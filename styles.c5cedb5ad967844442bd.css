@@ -1218,13 +1218,17 @@
 }
 
 .main-bg-module--ibg--b9818 {
+    background: url("./static/trassa3.webp") no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     height: 100vh;
     position: relative;
     width: 100%;
 }
 
 .main-bg-module--ibg--b9818 img {
-    height: 100vh;
+    height: 80vh;
     object-fit: cover;
     width: 100%;
 }
@@ -1233,7 +1237,7 @@
     display: inline-flex;
     flex-direction: column;
     position: absolute;
-    top: 80%;
+    top: 85%;
 }
 
 .main-bg-module--mainblock__btn--86deb {
@@ -1320,7 +1324,7 @@
 .main-bg-module--welcome--4c5b4 {
     display: block;
     position: absolute;
-    top: 75%;
+    top: 80%;
     width: 100%;
 }
 
@@ -1329,7 +1333,7 @@
     font-size: 2rem;
     padding: 0 1rem;
     text-align: center;
-    color: #fff;
+    color: #000;
     font-family: "Underground";
 }
 
