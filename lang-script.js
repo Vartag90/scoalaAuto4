@@ -31,11 +31,11 @@ for (const elem of langbar) {
             navbar_root.querySelector('.menu__ru').classList.remove('menu__active');
             navbar_root.querySelector('.menu__ro').classList.add('menu__active');
             navbar__main.textContent = 'Principala';
-            navbar__grupe.textContent = 'Grupe';
+            navbar__grupe.textContent = 'Admitere';
             navbar__categorii.textContent = 'Categorii';
-            navbar__conditii.textContent = 'Conditii';
+            navbar__conditii.textContent = 'Preturi';
             navbar__gallery.textContent = 'Galerie';
-            navbar__util.textContent = 'Util';
+            navbar__util.textContent = 'Linkuri';
             navbar__contacts.textContent = 'Contacte';
             navbar__main_link.href = '#main__ro';
             navbar__grupe_link.href = '#grupe__ro';
@@ -54,9 +54,9 @@ for (const elem of langbar) {
             navbar__main.textContent = 'Главная';
             navbar__grupe.textContent = 'Группы';
             navbar__categorii.textContent = 'Категории';
-            navbar__conditii.textContent = 'Условия';
+            navbar__conditii.textContent = 'Цены';
             navbar__gallery.textContent = 'Галерея';
-            navbar__util.textContent = 'Инфо';
+            navbar__util.textContent = 'Литература';
             navbar__contacts.textContent = 'Контакты';
             navbar__main_link.href = '#main__ru';
             navbar__grupe_link.href = '#grupe__ru';

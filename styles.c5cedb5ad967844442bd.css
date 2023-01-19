@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:ital,wght@1,700&display=swap");
 @font-face {
     font-family: "Underground";
     src: url("./fonts/930-font.otf");
@@ -69,9 +70,11 @@
 }
 
 .header-module--contact--5cce0 a {
+    font-family: "Sofia Sans Condensed", sans-serif;
+    font-weight: 700;
+    font-style: italic;
     color: #fff;
     font-size: 1.4rem;
-    font-weight: 700;
     text-shadow: 0.5px 0.5px 1px #000, -0.5px -0.5px 1px #000;
 }
 
@@ -243,13 +246,98 @@
     text-decoration: underline;
 }
 
-.categorii-module--categorii--388dd {
+.main-bg-module--ibg--b9818 {
+    /* background: #7a869e url("./static/trassa3.webp") no-repeat; */
+    height: 100vh;
+    position: relative;
+    width: 100%;
+}
+
+.categorii-module--categorii--388dd,
+.conditii-module--conditii--f3d07,
+.contacts-module--contacts--c9921,
+.grupe-module--grupe--b5eb2,
+.util-module--util--a98dd {
+    /* background: #7a869e url("./static/trassa3.webp") no-repeat; */
+    padding: 95px 0 0 0;
+}
+
+.categorii-module--categorii--388dd,
+.conditii-module--conditii--f3d07,
+.contacts-module--contacts--c9921,
+.grupe-module--grupe--b5eb2,
+.util-module--util--a98dd,
+.gallery-module--photos--0a3a7,
+.main-bg-module--ibg--b9818 {
+    /* var1 */
+    /* background: #c2a09faf; */
+    /* var2 */
+    /* background: #f2af50; */
+    /* var3 */
+    /* background: #b878509c; */
+    /* var4 */
+    /* background: url("./static/fon4.jpg"); */
+    background: #7a869e url("./static/trassa3.webp") no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+/* .categorii-module--categorii__table--f4f9f th,
+.categorii-module--categorii__table--f4f9f td:first-child, */
+
+.categorii-module--categorii__table--f4f9f,
+.conditii-module--conditii__documents--9ae48 p,
+.conditii-module--conditii__table--ef708,
+.grupe-module--grupe__table--6b5d9,
+.util-module--util__linkuri--061fd p {
+    /* var1 */
+    background-color: #f7bb8a8f;
+    /* var2 */
+    /* var3 */
+    /* var4 */
+}
+
+.gallery-module--photos--0a3a7 {
+    /* background: #7a869e url("./static/trassa3.webp") no-repeat; */
+    padding: 85px 0 20px 0;
+}
+
+
+/* .conditii-module--conditii--f3d07 {
     background: #7a869e url("./static/trassa3.webp") no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
     padding: 95px 0 0 0;
 }
+
+.contacts-module--contacts--c9921 {
+    background: #7a869e url("./static/trassa3.webp") no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 95px 0 0 0;
+} */
+
+
+/* .grupe-module--grupe--b5eb2 {
+    background: #7a869e url("./static/trassa3.webp") no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 95px 0 0 0;
+} */
+
+
+/* .util-module--util--a98dd {
+    background: #7a869e url("./static/trassa3.webp") no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 95px 0 0 0;
+} */
 
 @media (max-width: 991px) {
     .categorii-module--categorii--388dd {
@@ -382,7 +470,6 @@
 }
 
 .categorii-module--categorii__table--f4f9f {
-    background-color: #d8e6f3bb;
     border: 5px outset gray;
     flex: 0 1 70%;
     margin: 0 0 20px;
@@ -390,9 +477,52 @@
 
 .categorii-module--categorii__table--f4f9f th,
 .categorii-module--categorii__table--f4f9f td:first-child {
-    background-color: #d8e6f3bb;
     color: #000;
+    font-size: 16px;
+}
+
+.conditii-module--conditii__documents--9ae48 p {
+    border-radius: 20px;
     font-size: 1.2rem;
+    margin: 0 0 15px;
+    padding: 20px;
+    text-shadow: 0.5px 0.5px 1px #bababa, -0.5px -0.5px 1px #bababa;
+}
+
+.conditii-module--conditii__table--ef708 {
+    border: 5px outset gray;
+    flex: 0 1 70%;
+}
+
+.conditii-module--conditii__table--ef708 th,
+.conditii-module--conditii__table--ef708 td:first-child {
+    font-weight: 700;
+    color: #000;
+}
+
+.grupe-module--grupe__table--6b5d9 {
+    border: 5px outset gray;
+    flex: 0 1 70%;
+    justify-content: center;
+    margin: 0 0 20px;
+}
+
+.grupe-module--grupe__table--6b5d9 th,
+.grupe-module--grupe__table--6b5d9 td:first-child {
+    color: #000;
+}
+
+.util-module--util__linkuri--061fd p {
+    border-radius: 20px;
+    font-size: 1.2rem;
+    margin: 10px 15px;
+    text-shadow: 0.5px 0.5px 1px #bababa, -0.5px -0.5px 1px #bababa;
+}
+
+@media (max-width: 992px) {
+    .grupe-module--grupe__table--6b5d9 {
+        flex: 1 1 100%;
+    }
 }
 
 .categorii-module--categorii__table--f4f9f td:first-child {
@@ -446,7 +576,6 @@
     .categorii-module--categorii__table--f4f9f th {
         font-size: 0.8rem;
         font-weight: 600;
-        padding: 1px 3px;
     }
 }
 
@@ -455,6 +584,7 @@
 .categorii-module--categorii__table--f4f9f th span,
 .categorii-module--categorii__table--f4f9f th.categorii-module--categorii__text--7f2c7 {
     font-size: 1rem;
+    font-family: none;
     font-weight: 400;
     text-align: justify;
 }
@@ -520,7 +650,6 @@
     .categorii-module--categorii__table--f4f9f th {
         font-size: 0.6rem;
         font-weight: 500;
-        padding: 1px 3px;
     }
 }
 
@@ -540,16 +669,12 @@
     .main__ru .categorii-module--categorii__table--f4f9f th {
         font-size: 0.44rem;
         font-weight: 500;
-        padding: 1px 3px;
     }
 }
 
-.conditii-module--conditii--f3d07 {
-    background: #7a869e url("./static/trassa3.webp") no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    padding: 95px 0 0 0;
+.categorii-module--categorii__text--7f2c7 {
+    line-height: 120%;
+    letter-spacing: 1px;
 }
 
 .conditii-module--conditii--f3d07 table {
@@ -602,15 +727,6 @@
     }
 }
 
-.conditii-module--conditii__documents--9ae48 p {
-    background-color: #d8e6f3bb;
-    border-radius: 20px;
-    font-size: 1.2rem;
-    margin: 0 0 15px;
-    padding: 20px;
-    text-shadow: 0.5px 0.5px 1px #bababa, -0.5px -0.5px 1px #bababa;
-}
-
 .conditii-module--conditii__formare--59975 {
     display: flex;
     justify-content: center;
@@ -628,19 +744,6 @@
     .conditii-module--conditii__formare--59975 {
         padding: 0;
     }
-}
-
-.conditii-module--conditii__table--ef708 {
-    background-color: #d8e6f3bb;
-    border: 5px outset gray;
-    flex: 0 1 70%;
-}
-
-.conditii-module--conditii__table--ef708 th,
-.conditii-module--conditii__table--ef708 td:first-child {
-    background-color: #d8e6f3bb;
-    font-weight: 700;
-    color: #000;
 }
 
 .conditii-module--conditii__table--ef708 th {
@@ -683,8 +786,7 @@
 .main__ru .conditii-module--conditii__table--ef708 th {
     border: 3px solid rgb(219, 219, 219);
     box-shadow: inset 1.5px 1.5px 0 #000;
-    font-size: 1.1rem;
-    padding: 5px 10px;
+    font-size: 1.2rem;
 }
 
 @media (max-width: 767px) {
@@ -700,26 +802,12 @@
 
 @media (max-width: 480px) {
     .conditii-module--conditii__table--ef708 td,
-    .conditii-module--conditii__table--ef708 th {
+    .conditii-module--conditii__table--ef708 th,
+    .main__ru .conditii-module--conditii__table--ef708 td,
+    .main__ru .conditii-module--conditii__table--ef708 th {
         font-size: 0.7rem;
         padding: 3px 5px;
     }
-}
-
-@media (max-width: 480px) {
-    .main__ru .conditii-module--conditii__table--ef708 td,
-    .main__ru .conditii-module--conditii__table--ef708 th {
-        font-size: 0.6rem;
-        padding: 3px 5px;
-    }
-}
-
-.contacts-module--contacts--c9921 {
-    background: #7a869e url("./static/trassa3.webp") no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    padding: 95px 0 0 0;
 }
 
 @media (max-width: 991px) {
@@ -815,8 +903,8 @@
 }
 
 .contacts-module--contacts__map--1f7ab iframe {
-    height: 50vh;
     width: 100%;
+    height: 50vh;
 }
 
 .contacts-module--contacts__map--1f7ab h3 {
@@ -952,14 +1040,6 @@
     }
 }
 
-.gallery-module--photos--0a3a7 {
-    background: #7a869e url("./static/trassa3.webp") no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    padding: 85px 0 20px 0;
-}
-
 .gallery-module--photos__title--bce8e {
     color: #fff;
     font-size: 2rem;
@@ -1031,14 +1111,6 @@
     z-index: 25;
 }
 
-.grupe-module--grupe--b5eb2 {
-    background: #7a869e url("./static/trassa3.webp") no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    padding: 95px 0 0 0;
-}
-
 @media (max-width: 991px) {
     .grupe-module--grupe--b5eb2 {
         padding: 75px 0 0 0;
@@ -1089,26 +1161,6 @@
         padding: 0;
         flex-wrap: wrap;
     }
-}
-
-.grupe-module--grupe__table--6b5d9 {
-    background-color: #d8e6f3bb;
-    border: 5px outset gray;
-    flex: 0 1 70%;
-    justify-content: center;
-    margin: 0 0 20px;
-}
-
-@media (max-width: 992px) {
-    .grupe-module--grupe__table--6b5d9 {
-        flex: 1 1 100%;
-    }
-}
-
-.grupe-module--grupe__table--6b5d9 th,
-.grupe-module--grupe__table--6b5d9 td:first-child {
-    background-color: #d8e6f3bb;
-    color: #000;
 }
 
 .grupe-module--grupe__table--6b5d9 th {
@@ -1215,16 +1267,6 @@
     .main__ru .grupe-module--grupe__table--6b5d9 td:first-child {
         font-weight: 600;
     }
-}
-
-.main-bg-module--ibg--b9818 {
-    background: url("./static/trassa3.webp") no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    height: 100vh;
-    position: relative;
-    width: 100%;
 }
 
 .main-bg-module--ibg--b9818 img {
@@ -1405,14 +1447,6 @@
     }
 }
 
-.util-module--util--a98dd {
-    background: #7a869e url("./static/trassa3.webp") no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    padding: 95px 0 0 0;
-}
-
 @media (max-width: 991px) {
     .util-module--util--a98dd {
         padding: 75px 0 0 0;
@@ -1423,7 +1457,7 @@
     box-sizing: content-box;
     margin: 0 auto;
     max-width: 1270px;
-    padding: 0 15px;
+    padding: 10px 15px;
 }
 
 .util-module--util__title--086cc {
@@ -1449,14 +1483,21 @@
 .util-module--util__formare--e1ac4 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     padding: 0 30px;
     margin: 0 0 20px 0;
+    align-items: center;
+}
+
+.util-module--util__formare--e1ac4 div {
+    flex: 0 1 50%;
 }
 
 @media (max-width: 992px) {
     .util-module--util__formare--e1ac4 {
         padding: 0 15px;
+    }
+    .util-module--util__formare--e1ac4 div {
+        flex: 0 1 100%;
     }
 }
 
@@ -1481,29 +1522,15 @@
 }
 
 .util-module--util__linkuri--061fd {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     margin: 0 0 10px;
     font-family: "MainFont";
+    width: 70%;
+    margin: 0 auto;
 }
 
 @media (max-width: 1120px) {
     .util-module--util__linkuri--061fd {
         width: 100%;
-    }
-}
-
-.util-module--util__linkuri--061fd p {
-    background-color: #d8e6f3bb;
-    border-radius: 20px;
-    font-size: 1.2rem;
-    text-shadow: 0.5px 0.5px 1px #bababa, -0.5px -0.5px 1px #bababa;
-}
-
-@media (max-width: 1120px) {
-    .util-module--util__linkuri--061fd p {
-        margin: 0 0 10px;
     }
 }
 
@@ -1543,25 +1570,26 @@
     border-radius: 20px;
 }
 
+.util-module--util__video--d55f5 {}
+
+.util-module--util--a98dd iframe {
+    width: 100%;
+    height: 40vh;
+    padding: 0 15px;
+}
+
 @media (max-width: 992px) {
     .util-module--util__linkuri--061fd p {
         font-size: 1rem;
     }
-}
-
-.util-module--util__video--d55f5 div {
-    display: flex;
-    justify-content: center;
-}
-
-.util-module--util--a98dd iframe {
-    height: 40vh;
-    width: 50%;
+    .util-module--util__video--d55f5 {}
+    .util-module--util--a98dd iframe {}
 }
 
 @media (max-width: 767px) {
     .util-module--util--a98dd iframe {
-        width: 90%;
+        width: 100%;
+        padding: 0 15px;
     }
 }
 
@@ -1964,4 +1992,35 @@ th.narrow {
 .conditii-module--conditii__table--ef708 td:nth-child(3),
 .conditii-module--conditii__table--ef708 td:nth-child(4) {
     text-align: center;
+}
+
+.categorii-module--categorii__table--f4f9f td:nth-child(3) {
+    font-family: "TableFont";
+    font-size: 16px;
+}
+
+.categorii-module--categorii__table--f4f9f td:nth-child(4) {
+    font-family: "TableFont";
+    font-size: 16px;
+}
+
+.special-row td {
+    padding: 10px 0;
+    background-color: #f7bb8a8f;
+}
+
+.special-text-r {
+    color: red;
+}
+
+.special-text-o {
+    color: rgb(255, 115, 0);
+}
+
+.special-text-g {
+    color: rgb(31, 143, 27);
+}
+
+.special-text-bs {
+    color: rgb(31, 83, 228);
 }
