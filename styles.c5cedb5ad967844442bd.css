@@ -247,7 +247,6 @@
 }
 
 .main-bg-module--ibg--b9818 {
-    /* background: #7a869e url("./static/trassa3.webp") no-repeat; */
     height: 100vh;
     position: relative;
     width: 100%;
@@ -257,7 +256,6 @@
 .conditii-module--conditii--f3d07,
 .contacts-module--contacts--c9921,
 .util-module--util--a98dd {
-    /* background: #7a869e url("./static/trassa3.webp") no-repeat; */
     padding: 95px 0 0 0;
 }
 
@@ -268,75 +266,23 @@
 .util-module--util--a98dd,
 .gallery-module--photos--0a3a7,
 .main-bg-module--ibg--b9818 {
-    /* var1 */
-    /* background: #c2a09faf; */
-    /* var2 */
-    /* background: #f2af50; */
-    /* var3 */
-    /* background: #b878509c; */
-    /* var4 */
-    /* background: url("./static/fon4.jpg"); */
     background: #7a869e url("./static/trassa3.webp") no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 }
-
-
-/* .categorii-module--categorii__table--f4f9f th,
-.categorii-module--categorii__table--f4f9f td:first-child, */
 
 .categorii-module--categorii__table--f4f9f,
 .conditii-module--conditii__documents--9ae48 p,
 .conditii-module--conditii__table--ef708,
 .grupe-module--grupe__table--6b5d9,
 .util-module--util__linkuri--061fd p {
-    /* var1 */
     background-color: #f7bb8a8f;
-    /* var2 */
-    /* var3 */
-    /* var4 */
 }
 
 .gallery-module--photos--0a3a7 {
-    /* background: #7a869e url("./static/trassa3.webp") no-repeat; */
     padding: 85px 0 20px 0;
 }
-
-
-/* .conditii-module--conditii--f3d07 {
-    background: #7a869e url("./static/trassa3.webp") no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    padding: 95px 0 0 0;
-}
-
-.contacts-module--contacts--c9921 {
-    background: #7a869e url("./static/trassa3.webp") no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    padding: 95px 0 0 0;
-} */
-
-
-/* .grupe-module--grupe--b5eb2 {
-    background: #7a869e url("./static/trassa3.webp") no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    padding: 95px 0 0 0;
-} */
-
-
-/* .util-module--util--a98dd {
-    background: #7a869e url("./static/trassa3.webp") no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    padding: 95px 0 0 0;
-} */
 
 @media (max-width: 991px) {
     .categorii-module--categorii--388dd {
@@ -881,12 +827,6 @@
     }
 }
 
-@media (max-width: 767px) {
-    .contacts-module--contacts__subtitle--906ba {
-        font-size: 1rem;
-    }
-}
-
 .contacts-module--contacts__map--1f7ab {
     flex: 0 1 49%;
     margin: 0 10px 10px 0;
@@ -960,13 +900,6 @@
         font-size: 1.1rem;
     }
 }
-
-
-/* @media (max-width: 767px) {
-    .contacts-module--contacts__date--fc542 p {
-        font-size: 0.8rem;
-    }
-} */
 
 .contacts-module--contacts__date--fc542 p a {
     color: #fff;
@@ -1577,8 +1510,6 @@
     .util-module--util__linkuri--061fd p {
         font-size: 1rem;
     }
-    .util-module--util__video--d55f5 {}
-    .util-module--util--a98dd iframe {}
 }
 
 @media (max-width: 767px) {
