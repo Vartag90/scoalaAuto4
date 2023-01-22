@@ -1940,15 +1940,18 @@ th.narrow {
 }
 
 .special-text-o {
-    color: rgb(31, 83, 228);
+    color: rgb(95, 133, 236);
+    text-shadow: 0.5px 0.5px 1px #000, -0.5px -0.5px 1px #000;
 }
 
 .special-text-g {
-    color: rgb(255, 115, 0);
+    color: rgb(255, 157, 28);
+    text-shadow: 0.5px 0.5px 1px #000, -0.5px -0.5px 1px #000;
 }
 
 .special-text-bs {
-    color: rgb(31, 143, 27);
+    color: rgb(42, 211, 36);
+    text-shadow: 0.5px 0.5px 1px #000, -0.5px -0.5px 1px #000;
 }
 
 .grupe-module--grupe__table--6b5d9 td {
