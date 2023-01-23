@@ -529,7 +529,6 @@
 .categorii-module--categorii__table--f4f9f th span,
 .categorii-module--categorii__table--f4f9f th.categorii-module--categorii__text--7f2c7 {
     font-size: 1rem;
-    font-family: none;
     font-weight: 400;
     text-align: justify;
 }
@@ -1954,15 +1953,14 @@ th.narrow {
     text-shadow: 0.5px 0.5px 1px #000, -0.5px -0.5px 1px #000;
 }
 
-.grupe-module--grupe__table--6b5d9 td {
-    font-family: "TableFont";
-    font-weight: 600;
-}
-
 .contact-last {
     padding: 0;
 }
 
 .grupe-module--grupe--b5eb2 {
     padding: 95px 0 20px 0;
+}
+
+.standart-font {
+    font-family: "Times New Roman", Times, serif;
 }
